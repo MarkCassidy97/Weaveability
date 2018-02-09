@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://unpkg.com/css-grid@1.0.6/css/css-grid.min.css" />
+    <script src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS9jNkgrPc_nr58glOJy9EZfPDhc5VjgM"></script>
+
+</head>
+
+<header>
+
+    <div class="header-wrapper">
+        <div class="box a">
+            <div class="logo"></div>
+        </div>
+        <div class="box header-container">
+            <div class="s-wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm">
+                    <button type="submit" class="searchButton"></button>
+                </div>
+            </div>
+        </div>
+        <div class="box c">
+            <div class="header-container__logged-in-usr">
+                <span class="usr-name">Logged in: John Smith</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav class="container">
+        <div class="one">
+            <a href="#" class="nav-links">Home</a>
+        </div>
+        <div class="two">
+            <a href="#" class="nav-links">Projects</a>
+        </div>
+        <div class="three">
+            <a href="#" class="nav-links">News</a>
+        </div>
+        <div class="four">
+            <a href="#" class="nav-links">Careers</a>
+        </div>
+        <div class="five">
+            <a href="#" class="nav-links nav-links--active">Contact Us</a>
+        </div>
+        <div class="six">
+            <a href="#" class="nav-links">About Us</a>
+        </div>
+        <div class="seven">
+            <a href="#" class="nav-links">Case Studies</a>
+        </div>
+        <div class="eight">
+            <a href="#" class="nav-links">Blog</a>
+        </div>
+        <div class="nine">
+            <a href="#" class="nav-links">Customers</a>
+        </div>
+    </nav>
+</header>
+
+
+<body>
+
+    <div class="hero-image hero-image__top" src="../images/banner-top.png">
+        <div class="info-box-wrappper">
+            <div class="hero-text">
+                <h2>For more information...</h2>
+                <h1>Contact us!</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-2">
+        <div>
+            <div id="map-canvas" class="map"></div>
+        </div>
+        <div class="form">
+            <form class="form-style-9">
+                <ul>
+                    <li>
+                        <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
+                        <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+                    </li>
+                    <li>
+                        <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
+                        <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+                    </li>
+                    <li>
+                        <input type="text" class="field-style field-split align-left" id="date" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="09-01-2013">
+                        <input type="submit" class="field-style field-split align-right" value="Submit" />
+                    </li>
+            </form>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div>
+            One
+        </div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
+    <div class="hero-image  hero-image__bottom" src="../images/banner-bottom.png">
+        <div class="info-box-wrappper">
+            <div class="hero-text">
+                <h2>We will be in touch</h2>
+                <h1>Thank you!</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <div class="contact-text">
+        <span>Start a live chat with one of our Tech Team</span>
+        <div class="contact-btn-container">
+            <button class="contact-btn-orange">Start</button>
+        </div>
+    </div> -->
+
+</body>
+
+
+</html>

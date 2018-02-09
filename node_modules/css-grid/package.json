@@ -1,0 +1,64 @@
+{
+  "_from": "css-grid",
+  "_id": "css-grid@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-mfPF2OIoRpLVhuu0qpqiuUADc08=",
+  "_location": "/css-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "css-grid",
+    "name": "css-grid",
+    "escapedName": "css-grid",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/css-grid/-/css-grid-1.0.7.tgz",
+  "_shasum": "99f3c5d8e2284692d586ebb4aa9aa2b94003734f",
+  "_spec": "css-grid",
+  "_where": "C:\\Development\\Weaveability",
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/css-grid/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Adam Morse",
+      "email": "hi@mrmrs.cc"
+    }
+  ],
+  "css-grid": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-grid.git"
+  },
+  "deprecated": false,
+  "description": "Css module of single purpose classes for grid",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.8"
+  },
+  "homepage": "http://github.com/mrmrs/css-grid",
+  "keywords": [
+    "css",
+    "oocss",
+    "grid"
+  ],
+  "license": "MIT",
+  "name": "css-grid",
+  "scripts": {
+    "start": "tachyons src/css-grid.css > css/css-grid.css && tachyons src/css-grid.css --minify > css/css-grid.min.css && tachyons src/css-grid.css --generate-docs --package=../../package.json > readme.md"
+  },
+  "style": "grid.css",
+  "version": "1.0.7"
+}
